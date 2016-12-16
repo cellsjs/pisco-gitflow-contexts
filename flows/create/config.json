@@ -1,7 +1,0 @@
-{
-  "name": "create",
-  "description": "Create new branch",
-  "steps": {
-    "create": {}
-  }
-}
