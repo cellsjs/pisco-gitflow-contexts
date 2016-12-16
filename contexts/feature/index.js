@@ -5,7 +5,7 @@ const git = require('../../lib/gitUtils');
 module.exports = {
 
   check() {
-    return git.isBranch('feature*');
+    return git.isBranch('feature', true);
   }
 
 };

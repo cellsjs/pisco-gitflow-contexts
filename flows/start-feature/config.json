@@ -1,0 +1,11 @@
+{
+  "name": "start-feature",
+  "description": "start feature branch",
+  "steps": {
+    "start": {
+      "develop": {
+        "requires" : {}
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "start-hotfix",
+  "description": "start hotfix branch",
+  "steps": {
+    "start": {
+      "master": {
+        "requires" : {}
+      }
+    }
+  }
+}

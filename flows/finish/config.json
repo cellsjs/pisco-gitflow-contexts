@@ -1,7 +1,17 @@
 {
-  "name": "create",
-  "description": "Create new branch",
+  "name": "finish",
+  "description": "Finish branch",
   "steps": {
-    "finish": {}
+    "finish": {
+      "feature": {
+        "requires" : {}
+      },
+      "hotfix": {
+        "requires" : {}
+      },
+      "release": {
+        "requires" : {}
+      }
+    }
   }
 }

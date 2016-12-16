@@ -1,0 +1,11 @@
+{
+  "name": "start-release",
+  "description": "start release branch",
+  "steps": {
+    "start": {
+      "develop": {
+        "requires" : {}
+      }
+    }
+  }
+}

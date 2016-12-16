@@ -5,7 +5,7 @@ const git = require('../../lib/gitUtils');
 module.exports = {
 
   check() {
-    return git.isBranch('hotfix*');
+    return git.isBranch('hotfix', true);
   }
 
 };
