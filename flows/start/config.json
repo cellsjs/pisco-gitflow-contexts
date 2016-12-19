@@ -1,6 +1,6 @@
 {
   "name": "start",
-  "description": "Start new branch: Git Flow",
+  "description": "[Git flow]: Start new branch",
   "steps": {
     "start": {
       "develop": {
