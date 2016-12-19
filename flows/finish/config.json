@@ -4,13 +4,19 @@
   "steps": {
     "finish": {
       "feature": {
-        "requires" : {}
+        "requires" : {
+          "pisco-gitflow-finish": "^0.0.1"
+        }
       },
       "hotfix": {
-        "requires" : {}
+        "requires" : {
+          "pisco-gitflow-finish": "^0.0.1"
+        }
       },
       "release": {
-        "requires" : {}
+        "requires" : {
+          "pisco-gitflow-finish": "^0.0.1"
+        }
       }
     }
   }

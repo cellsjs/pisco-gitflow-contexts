@@ -4,7 +4,14 @@
   "steps": {
     "start": {
       "develop": {
-        "requires" : {}
+        "requires" : {
+          "pisco-gitflow-start": "^0.0.1"
+        }
+      },
+      "master": {
+        "requires" : {
+          "pisco-gitflow-start": "^0.0.1"
+        }
       }
     }
   }
