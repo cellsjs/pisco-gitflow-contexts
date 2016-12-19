@@ -1,6 +1,6 @@
 {
   "name": "gitflow-init",
-  "description": "Gitflow init, create set of branch",
+  "description": "Initialize Git flow set of branches",
   "steps": {
     "gitflow-init": {
       "master": {
