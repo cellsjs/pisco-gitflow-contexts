@@ -1,6 +1,6 @@
 {
   "name": "finish",
-  "description": "Finish branch: Git Flow",
+  "description": "[Git flow]: Finish and merge branch",
   "steps": {
     "finish": {
       "feature": {
