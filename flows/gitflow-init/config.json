@@ -2,6 +2,12 @@
   "name": "gitflow-init",
   "description": "Gitflow init, create set of branch",
   "steps": {
-    "gitflow-init": {}
+    "gitflow-init": {
+      "master": {
+        "requires" : {
+          "pisco-gitflow-init": "^0.0.1"
+        }
+      }
+    }
   }
 }
