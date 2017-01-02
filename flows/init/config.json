@@ -2,10 +2,10 @@
   "name": "init",
   "description": "[Git flow]: Initialize set of branches",
   "steps": {
-    "init": {
+    "create": {
       "gitflow": {
         "requires" : {
-          "pisco-gitflow-init": "^0.0.1"
+          "pisco-gitflow-create": "^0.0.1"
         }
       }
     }
