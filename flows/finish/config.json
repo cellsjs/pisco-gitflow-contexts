@@ -2,6 +2,9 @@
   "name": "finish",
   "description": "[Git flow]: Finish and merge branch",
   "steps": {
+    "validate" : {
+      "type" : "flow"
+    },
     "finish": {
       "feature": {
         "requires" : {
@@ -18,6 +21,9 @@
           "pisco-gitflow-finish": "^0.0.1"
         }
       }
+    },
+    "publish": {
+      "type" : "flow"
     }
   }
 }
