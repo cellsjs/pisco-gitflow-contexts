@@ -43,7 +43,6 @@
       }
     },
     "publish": {
-      "excludes" : ["feature", "hotfix", "release"],
       "type" : "flow",
       "params" : {
         "tag": true
