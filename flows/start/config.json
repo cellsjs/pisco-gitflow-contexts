@@ -3,6 +3,7 @@
   "description": "[Git flow]: Start new branch",
   "steps": {
     "start": {
+      "implementation-check" : false,
       "develop": {
         "requires" : {
           "pisco-gitflow-start": "^0.0.1"
@@ -11,6 +12,24 @@
       "master": {
         "requires" : {
           "pisco-gitflow-start": "^0.0.1"
+        }
+      }
+    },
+    "setVersion": {
+      "excludes" : ["develop", "master"],
+      "component": {
+        "requires" : {
+          "pisco-cells-json-setVersion": "^0.0.1"
+        }
+      },
+      "recipe": {
+        "requires" : {
+          "pisco-cells-json-setVersion": "^0.0.1"
+        }
+      },
+      "app": {
+        "requires" : {
+          "pisco-cells-json-setVersion": "^0.0.1"
         }
       }
     }

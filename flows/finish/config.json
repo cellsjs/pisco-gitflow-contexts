@@ -3,9 +3,29 @@
   "description": "[Git flow]: Finish and merge branch",
   "steps": {
     "validate" : {
+      "excludes" : ["feature", "hotfix", "release"],
       "type" : "flow"
     },
+    "setVersion": {
+      "excludes" : ["feature", "hotfix", "release"],
+      "component": {
+        "requires" : {
+          "pisco-cells-json-setVersion": "^0.0.1"
+        }
+      },
+      "recipe": {
+        "requires" : {
+          "pisco-cells-json-setVersion": "^0.0.1"
+        }
+      },
+      "app": {
+        "requires" : {
+          "pisco-cells-json-setVersion": "^0.0.1"
+        }
+      }
+    },
     "finish": {
+      "implementation-check" : false,
       "feature": {
         "requires" : {
           "pisco-gitflow-finish": "^0.0.1"
@@ -23,7 +43,11 @@
       }
     },
     "publish": {
-      "type" : "flow"
+      "excludes" : ["feature", "hotfix", "release"],
+      "type" : "flow",
+      "params" : {
+        "tag": true
+      }
     }
   }
 }
