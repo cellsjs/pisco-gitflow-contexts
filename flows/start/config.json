@@ -32,6 +32,27 @@
           "pisco-cells-json-setVersion": "^0.0.1"
         }
       }
+    },
+    "push" : {
+      "implementation-check" : false,
+      "inputs" : {
+        "branchName" : {"start": "branchName"}
+      },
+      "hotfix" : {
+        "requires" : {
+          "pisco-gitflow-publish": "^0.0.1"
+        }
+      },
+      "feature" : {
+        "requires" : {
+          "pisco-gitflow-publish": "^0.0.1"
+        }
+      },
+      "release" : {
+        "requires" : {
+          "pisco-gitflow-publish": "^0.0.1"
+        }
+      }
     }
   }
 }
