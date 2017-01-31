@@ -6,7 +6,7 @@
       "implementation-check" : false,
       "gitflow": {
         "requires" : {
-          "pisco-gitflow-init": "^0.0.4"
+          "pisco-gitflow-init": "^0.1.0"
         }
       }
     }

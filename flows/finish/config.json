@@ -2,43 +2,61 @@
   "name": "finish",
   "description": "[Git flow]: Finish and merge branch",
   "steps": {
-    "validate" : {
-      "excludes" : ["feature", "hotfix", "release"],
-      "type" : "flow"
+    "merge": {
+      "implementation-check" : false,
+      "feature": {
+        "requires" : {
+          "pisco-gitflow-merge": "^0.1.0"
+        }
+      },
+      "hotfix": {
+        "requires" : {
+          "pisco-gitflow-merge": "^0.1.0"
+        }
+      },
+      "release": {
+        "requires" : {
+          "pisco-gitflow-merge": "^0.1.0"
+        }
+      }
     },
     "setVersion": {
       "excludes" : ["feature", "hotfix", "release"],
       "component": {
         "requires" : {
-          "pisco-cells-json-setVersion": "^0.0.1"
+          "pisco-cells-json-setVersion": "^0.1.0"
         }
       },
       "recipe": {
         "requires" : {
-          "pisco-cells-json-setVersion": "^0.0.1"
+          "pisco-cells-json-setVersion": "^0.1.0"
         }
       },
       "app": {
         "requires" : {
-          "pisco-cells-json-setVersion": "^0.0.1"
+          "pisco-cells-json-setVersion": "^0.1.0"
         }
       }
+    },
+    "validate" : {
+      "excludes" : ["feature", "hotfix", "release"],
+      "type" : "flow"
     },
     "finish": {
       "implementation-check" : false,
       "feature": {
         "requires" : {
-          "pisco-gitflow-finish": "^0.0.1"
+          "pisco-gitflow-finish": "^0.1.0"
         }
       },
       "hotfix": {
         "requires" : {
-          "pisco-gitflow-finish": "^0.0.1"
+          "pisco-gitflow-finish": "^0.1.0"
         }
       },
       "release": {
         "requires" : {
-          "pisco-gitflow-finish": "^0.0.1"
+          "pisco-gitflow-finish": "^0.1.0"
         }
       }
     },
@@ -46,6 +64,9 @@
       "type" : "flow",
       "params" : {
         "tag": true
+      },
+      "inputs" : {
+        "deletedBranch" : {"finish": "deletedBranch"}
       }
     }
   }
