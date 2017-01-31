@@ -1,0 +1,33 @@
+{
+  "name": "merge",
+  "description": "[Git flow]: Merge branch",
+  "steps": {
+    "merge": {
+      "implementation-check" : false,
+      "feature": {
+        "requires" : {
+          "pisco-gitflow-merge": "^0.1.0"
+        }
+      },
+      "develop": {
+        "requires" : {
+          "pisco-gitflow-merge": "^0.1.0"
+        }
+      },
+      "hotfix": {
+        "requires" : {
+          "pisco-gitflow-merge": "^0.1.0"
+        }
+      },
+      "release": {
+        "requires" : {
+          "pisco-gitflow-merge": "^0.1.0"
+        }
+      }
+    },
+    "validate" : {
+      "excludes" : ["feature", "hotfix", "release"],
+      "type" : "flow"
+    }
+  }
+}
