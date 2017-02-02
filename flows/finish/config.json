@@ -20,6 +20,10 @@
         }
       }
     },
+    "validate:origin" : {
+      "excludes" : ["feature", "hotfix", "release", "recipe"],
+      "type" : "flow"
+    },
     "setVersion": {
       "excludes" : ["feature", "hotfix", "release"],
       "component": {
@@ -38,10 +42,6 @@
         }
       }
     },
-    "validate" : {
-      "excludes" : ["feature", "hotfix", "release"],
-      "type" : "flow"
-    },
     "finish": {
       "implementation-check" : false,
       "feature": {
@@ -59,6 +59,10 @@
           "pisco-gitflow-finish": "^0.1.0"
         }
       }
+    },
+    "validate:target" : {
+      "excludes" : ["feature", "hotfix", "release", "recipe"],
+      "type" : "flow"
     },
     "publish": {
       "type" : "flow",
