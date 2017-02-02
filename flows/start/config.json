@@ -3,58 +3,18 @@
   "description": "[Git flow]: Start new branch",
   "steps": {
     "start": {
-      "implementation-check" : false,
-      "develop": {
-        "requires" : {
-          "pisco-gitflow-start": "^0.1.0"
-        }
-      },
-      "master": {
-        "requires" : {
-          "pisco-gitflow-start": "^0.1.0"
-        }
-      }
+      "implementation-check" : false
     },
     "setVersion": {
       "excludes" : ["develop", "master"],
       "params" : {
         "pretag" : "true"
-      },
-      "component": {
-        "requires" : {
-          "pisco-cells-json-setVersion": "^0.1.0"
-        }
-      },
-      "recipe": {
-        "requires" : {
-          "pisco-cells-json-setVersion": "^0.1.0"
-        }
-      },
-      "app": {
-        "requires" : {
-          "pisco-cells-json-setVersion": "^0.1.0"
-        }
       }
     },
     "push" : {
       "implementation-check" : false,
       "inputs" : {
         "branchName" : {"start": "branchName"}
-      },
-      "hotfix" : {
-        "requires" : {
-          "pisco-gitflow-publish": "^0.1.0"
-        }
-      },
-      "feature" : {
-        "requires" : {
-          "pisco-gitflow-publish": "^0.1.0"
-        }
-      },
-      "release" : {
-        "requires" : {
-          "pisco-gitflow-publish": "^0.1.0"
-        }
       }
     }
   }
