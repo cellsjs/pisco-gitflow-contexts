@@ -3,7 +3,7 @@
   "description": "[Git flow]: Merge branch",
   "steps": {
     "merge": {
-      "implementation-check" : false,
+      "implementation-check" : false
     },
     "validate" : {
       "excludes" : ["feature", "hotfix", "release"],
