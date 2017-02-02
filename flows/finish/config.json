@@ -6,7 +6,7 @@
       "implementation-check" : false
     },
     "validate:origin" : {
-      "excludes" : ["feature", "hotfix", "release", "recipe"],
+      "excludes" : ["feature", "hotfix", "release"],
       "type" : "flow"
     },
     "setVersion": {
@@ -16,7 +16,7 @@
       "implementation-check" : false
     },
     "validate:target" : {
-      "excludes" : ["feature", "hotfix", "release", "recipe"],
+      "excludes" : ["feature", "hotfix", "release"],
       "type" : "flow"
     },
     "publish": {
