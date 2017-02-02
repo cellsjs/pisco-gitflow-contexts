@@ -3,12 +3,7 @@
   "description": "[Git flow]: Initialize set of branches",
   "steps": {
     "init": {
-      "implementation-check" : false,
-      "gitflow": {
-        "requires" : {
-          "pisco-gitflow-init": "^0.1.0"
-        }
-      }
+      "implementation-check" : false
     }
   }
 }

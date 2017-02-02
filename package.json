@@ -8,6 +8,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "pisco-gitflow-finish": "^0.1.0",
+    "pisco-gitflow-init": "^0.1.0",
+    "pisco-gitflow-merge": "^0.1.0",
+    "pisco-gitflow-start": "^0.1.0",
+    "pisco-cells-json-setVersion": "^0.1.0",
+    "pisco-gitflow-publish": "^0.1.0"
+  },
   "devDependencies": {
     "piscosour": "^1.0.0-alpha.8"
   },
