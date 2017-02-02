@@ -20,6 +20,10 @@
         }
       }
     },
+    "validate" : {
+      "excludes" : ["feature", "hotfix", "release"],
+      "type" : "flow"
+    },
     "setVersion": {
       "excludes" : ["feature", "hotfix", "release"],
       "component": {
@@ -37,10 +41,6 @@
           "pisco-cells-json-setVersion": "^0.1.0"
         }
       }
-    },
-    "validate" : {
-      "excludes" : ["feature", "hotfix", "release"],
-      "type" : "flow"
     },
     "finish": {
       "implementation-check" : false,
