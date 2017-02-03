@@ -9,6 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "pisco-recipe-publish": "^0.1.0",
     "pisco-gitflow-finish": "^0.1.0",
     "pisco-gitflow-init": "^0.1.0",
     "pisco-gitflow-merge": "^0.1.0",
