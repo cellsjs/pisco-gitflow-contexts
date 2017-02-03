@@ -5,7 +5,7 @@
     "merge": {
       "implementation-check" : false
     },
-    "validate:origin" : {
+    "validate" : {
       "excludes" : ["feature", "hotfix", "release"],
       "type" : "flow"
     },
@@ -14,10 +14,6 @@
     },
     "finish": {
       "implementation-check" : false
-    },
-    "validate:target" : {
-      "excludes" : ["feature", "hotfix", "release"],
-      "type" : "flow"
     },
     "publish": {
       "type" : "flow",
