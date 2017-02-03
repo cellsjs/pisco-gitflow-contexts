@@ -1,13 +1,13 @@
 {
   "name": "finish",
   "description": "[Git flow]: Finish and merge branch",
+  "validate" : {
+    "excludes" : ["feature", "hotfix", "release"],
+    "type" : "flow"
+  },
   "steps": {
     "merge": {
       "implementation-check" : false
-    },
-    "validate" : {
-      "excludes" : ["feature", "hotfix", "release"],
-      "type" : "flow"
     },
     "setVersion": {
       "excludes" : ["feature", "hotfix", "release"]
