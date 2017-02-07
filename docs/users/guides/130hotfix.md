@@ -1,5 +1,5 @@
 ---
-title: Make a Hotfix
+title: Cómo hacer un Hotfix?
 layout: doc_page.html
 ---
 

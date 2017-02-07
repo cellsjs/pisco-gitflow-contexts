@@ -1,9 +1,9 @@
 ---
-title: The Release process
+title: El Proceso de Release
 layout: doc_page.html
 ---
 
-# The Release Process
+# El Proceso de Release
 
 Es el proceso de entrega de código de develop a master.
 

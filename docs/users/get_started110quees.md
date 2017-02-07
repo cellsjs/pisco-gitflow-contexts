@@ -1,5 +1,5 @@
 ---
-title: ¿What is Pisco GitFlow?
+title: What is Pisco GitFlow?
 layout: doc_page.html
 ---
 

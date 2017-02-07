@@ -1,5 +1,5 @@
 ---
-title: Resolving conflicts with git
+title: Resolución de conflictos con git
 layout: doc_page.html
 ---
 

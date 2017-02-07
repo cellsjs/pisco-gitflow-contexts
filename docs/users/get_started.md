@@ -1,18 +1,18 @@
 ---
-title: How to Install
+title: How to install
 layout: doc_page.html
 ---
 
-# Instalación
+# How to install
 
-Instalación de piscosour
+Install piscosour.
 
     npm i -g piscosour
 
-Instalación del conjunto de comandos y contextos de **Pisco GitFlow**
+Install all the commands and contexts of **Pisco GitFlow**.
 
     npm -i -g pisco-gitflow-contexts
 
-Si queremos usar **Pisco GitFlow**  para contextos cells será necesario instalar el conjunto de comandos y contextos de cells
+If cells contexts and commands are required is necesary to install this module.
 
     npm -i -g pisco-cells-contexts

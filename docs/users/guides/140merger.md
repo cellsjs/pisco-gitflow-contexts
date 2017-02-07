@@ -1,5 +1,5 @@
 ---
-title: Merging master to develop
+title: Mezclando cambios de master a develop
 layout: doc_page.html
 ---
 
