@@ -1,9 +1,9 @@
 ---
-title: Working with Features
+title: Trabajar con Features
 layout: doc_page.html
 ---
 
-# Working with features
+# Trabajar con Features
 
 ## start:feature - Comenzar una feature
 

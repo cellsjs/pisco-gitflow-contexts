@@ -7,7 +7,6 @@
     - [merge ([Git flow]: Merge branch)](#merge-[git-flow]-merge-branch)
     - [publish (Publish on every context)](#publish-publish-on-every-context)
     - [start ([Git flow]: Start new branch)](#start-[git-flow]-start-new-branch)
-    - [validate (Cells components validation flow)](#validate-cells-components-validation-flow)
   - [Steps](#steps)
 - [Plugins](#plugins)
 
@@ -73,6 +72,8 @@
 #### start ([Git flow]: Start new branch)
 [[Index]](#main-index)
 
+## Start a branch from another
+
 
 
 ##### Steps in this flow:
@@ -82,22 +83,6 @@
   2. setVersion
   
   3. push
-  
-
-#### validate (Cells components validation flow)
-[[Index]](#main-index)
-
-
-
-##### Steps in this flow:
-  
-  1. lint
-  
-  2. unit-testing
-  
-  3. demo-tests
-  
-  4. check-theme
   
 
 ### STEPS
