@@ -3,7 +3,7 @@ title: Working with Features
 layout: doc_page.html
 ---
 
-# Working with features
+# Working with features [[Versión en español](../../../es/users/guides/010feature.html)]
 
 ## start:feature - Start new feature
 

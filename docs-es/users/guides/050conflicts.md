@@ -3,7 +3,7 @@ title: Resolución de conflictos con git
 layout: doc_page.html
 ---
 
-# Resolver conflictos usando la línea de comando de git
+# Resolver conflictos usando la línea de comando de git [[English version](../../../en/users/guides/050conflicts.html)]
 
 Para la resolución de conflictos es posible usar la herramienta que más os guste, aquí ponemos un sencillo ejemplo de uso de resolución de conflictos usando git por línea de comando.
 

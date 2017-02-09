@@ -1,5 +1,5 @@
 ---
-title: What is Pisco GitFlow?
+title: Qué es Pisco GitFlow?
 layout: doc_page.html
 ---
 
@@ -20,3 +20,5 @@ Estas tareas son:
  - **start**: Crea una rama nueva dentro de **Pisco GitFlow** .
  - **finish**: Termina una rama **Pisco GitFlow** .
  - **merge**: Mezcla los cambios de master en una rama merger para posteriormente ser mezclados en develop.
+
+ [English version](../../en/users/get_started010whatis.html)

@@ -2,8 +2,7 @@
 title: Resolving conflicts with git
 layout: doc_page.html
 ---
-
-# Resolve conflicts using git command line
+# Resolve conflicts using git command line [[Versión en español](../../../es/users/guides/050conflicts.html)]
 
 Use you favorite tools for git conflict resolution, here is a simple example of using conflict resolution using git by command line.
 

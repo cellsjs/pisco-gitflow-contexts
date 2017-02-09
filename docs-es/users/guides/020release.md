@@ -3,7 +3,7 @@ title: El Proceso de Release
 layout: doc_page.html
 ---
 
-# El Proceso de Release
+# El Proceso de Release [[English version](../../../en/users/guides/020release.html)]
 
 Es el proceso de entrega de código de develop a master.
 

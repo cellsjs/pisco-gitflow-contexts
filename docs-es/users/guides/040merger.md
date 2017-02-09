@@ -3,7 +3,7 @@ title: Mezclando cambios de master a develop
 layout: doc_page.html
 ---
 
-# Proceso de mezclado de cambios de master a develop
+# Proceso de mezclado de cambios de master a develop [[English version](../../../en/users/guides/040merger.html)]
 
 Existen dos casos en la metodología en los que los cambios de master pueden no encontrarse en develop y producirse pérdida involuntaria de código fuente cuando se produce una entrega de release a master. (Recordemos que siempre se mezclará los cambios procedentes de release sobre lo que haya en master).
 

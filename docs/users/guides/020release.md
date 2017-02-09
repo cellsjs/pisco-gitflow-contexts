@@ -3,9 +3,9 @@ title: The Release process
 layout: doc_page.html
 ---
 
-# The Release Process
+# The Release Process [[Versión en español](../../../es/users/guides/020release.html)]
 
-It is the code delivery process from develop to master.
+Code delivery process from develop to master.
 
 ## start:release - Start release branch
 

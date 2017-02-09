@@ -3,7 +3,7 @@ title: Cómo hacer un Hotfix?
 layout: doc_page.html
 ---
 
-# ¿Cómo hacer un Hotfix?
+# ¿Cómo hacer un Hotfix? [[English version](../../../en/users/guides/030hotfix.html)]
 
 Para hacer un hotfix en master es necesario crear una rama hotfix para no desestabilizar nunca master.
 
