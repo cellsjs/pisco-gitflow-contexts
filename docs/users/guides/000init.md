@@ -3,7 +3,7 @@ title: Start working with Pisco GitFlow!
 layout: doc_page.html
 ---
 
-# Start working with **Pisco GitFlow**
+# Start working with **Pisco GitFlow** [[Versión en español](../../../es/users/guides/000init.html)]
 
 From a repository with only master branch transform into a **Pisco GitFlow** repository with both branches develop and master and the right version numbers.
 

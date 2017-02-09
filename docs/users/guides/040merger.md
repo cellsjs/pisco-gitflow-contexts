@@ -3,7 +3,7 @@ title: Merging master to develop
 layout: doc_page.html
 ---
 
-# Process of merge changes from master to develop
+# Process of merge changes from master to develop [[Versión en español](../../../es/users/guides/040merger.html)]
 
 There are two cases in the methodology where master changes may not be encountered in developing and causing unintentional loss of code source when a release to master release occurs. (Remember that changes coming from release always replace changes on master).
 

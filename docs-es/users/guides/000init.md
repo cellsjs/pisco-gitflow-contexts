@@ -3,7 +3,7 @@ title: Comenzar Pisco GitFlow!
 layout: doc_page.html
 ---
 
-# Comenzar a trabajar con **Pisco GitFlow**
+# Comenzar a trabajar con **Pisco GitFlow** [[English version](../../../en/users/guides/000init.html)]
 
 Partiendo de un repositorio normal donde solo exista la rama master transformaremos dicho repositorio en un repositorio **Pisco GitFlow**  con su correspondiente rama develop y con el número de versión correcto.
 
