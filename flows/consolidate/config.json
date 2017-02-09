@@ -1,0 +1,9 @@
+{
+  "name": "consolidate",
+  "description": "[Git flow]: Check for semver relate updates",
+  "steps": {
+    "start" : {},
+    "lock-check" : {},
+    "finish" : {}
+  }
+}
