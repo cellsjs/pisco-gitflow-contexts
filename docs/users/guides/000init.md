@@ -5,9 +5,9 @@ layout: doc_page.html
 
 # Start working with **Pisco GitFlow** [[Versión en español](../../../es/users/guides/000init.html)]
 
-From a repository with only master branch transform into a **Pisco GitFlow** repository with both branches develop and master and the right version numbers.
+First is necessary to create or configure develop. Execute
 
-    pisco gitflow:init
+    pisco master:init
 
 The tool will ask for the type of the next release in order to set the next right version.
 
@@ -18,7 +18,7 @@ The tool will ask for the type of the next release in order to set the next righ
 ❯ patch
 ```
 
-**IMPORTANT:** During the development process is possible to change the type of release manually anytime if is necessary by changing the version file.
+**IMPORTANT:** During the development process is possible to change the type of release executing **pisco master:init** on master anytime as you wish if is necessary.
 
 Check that new branch was generated ok:
 
