@@ -27,7 +27,7 @@ Line by line
 
     [16:55:33] Execution contexts: [ develop, component ]
 
-Shows all the contexts of this directory in this case you are in a component in develop branch
+Shows all the contexts of this directory in this case you are in a component in develop branch, all the steps will be executed in all the contexts
 
     [16:55:35] Starting flow: [ start ], steps: [ start, setVersion, push ]
 
@@ -90,18 +90,36 @@ Lets continue writing the feature name.
 [17:05:02] git branch feature/tutorial executed: OK
 Switched to branch 'feature/tutorial'
 [17:05:03] git checkout feature/tutorial executed: OK
+```
+
+Branch feature/tutorial is created and checkout.
+
+```
 [17:05:03] emit stage running...
 [17:05:03]
+    Finished | start one gitFlow branch  - 09 m 26 s 824 ms
+```
 
- Finished | start one gitFlow branch  - 09 m 26 s 824 ms
+Execution of develop::start ends
 
+```
 [17:05:03] Allowed not implemented step: [ component::start ]
 [17:05:03] Execution of step "setVersion" is excluded for context "develop"
+```
+
+Step component::start is not implemented but is allowed and develop::setVersion has been excluded of execution
+
+```
 [17:05:03]
 
  Starting | Write version on project json file | [ component::setVersion ]
 
 [17:05:03] run stage running...
+```
+
+component::setVersion starts execution
+
+```
 [17:05:03] Initial version on bower.json -> 3.1.7-beta.0
 [17:05:03] Applying start action on feature branch using prerelease strategy...
 0.1.14
@@ -238,20 +256,37 @@ Switched to branch 'feature/tutorial'
 3.2.0-beta.1
 3.2.0-beta.2
 [17:05:03] git tag -l executed: OK
+```
+
+setVersion search for pre_ tags in order to get the last version of all branches
+
+```
 [17:05:03] version: 3.1.7-beta.0 strategy: prerelease tag: alpha
 [17:05:03] Final version on bower.json -> 3.1.7-alpha.0
+```
+
+Final version calculated using strategy prerelease with tag alpha.
+
+```
 [feature/tutorial 2528b14] chore(): change version file: 3.1.7-alpha.0
  1 file changed, 1 insertion(+), 1 deletion(-)
 [17:05:03] git commit -m chore(): change version file: 3.1.7-alpha.0 . executed: OK
 [17:05:03] git tag pre_3.1.7-alpha.0 executed: OK
+```
+
+commit this change but not push it in this section.
+
+```
 [17:05:03]
 
  Finished | Write version on project json file - 055 ms
-
 [17:05:03]
 
  Starting | git flow push | [ develop::push ]
+```
+Obvious ;).
 
+```
 [17:05:03] run stage running...
 remote:
 remote: Create pull request for feature/tutorial:
@@ -261,11 +296,22 @@ To ssh://git@globaldevtools.bbva.com:7999/ctool/cells-icons.git
  * [new branch]      feature/tutorial -> feature/tutorial
 Branch feature/tutorial set up to track remote branch feature/tutorial from origin.
 [17:05:04] git push --set-upstream origin feature/tutorial executed: OK
+```
+
+set default upstream to your local branch
+
+```
 Everything up-to-date
 [17:05:05] git push --all executed: OK
 To ssh://git@globaldevtools.bbva.com:7999/ctool/cells-icons.git
  * [new tag]         pre_3.1.7-alpha.0 -> pre_3.1.7-alpha.0
 [17:05:07] git push --tags executed: OK
+
+```
+
+Push all changes and all tags
+
+```
 [17:05:07]
 
  Finished | git flow push - 04 s 375 ms
