@@ -2,8 +2,6 @@
   "name": "init",
   "description": "[Git flow]: Initialize set of branches",
   "steps": {
-    "init": {
-      "implementation-check" : false
-    }
+    "init": {}
   }
 }
