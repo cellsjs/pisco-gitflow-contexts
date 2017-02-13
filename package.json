@@ -1,6 +1,6 @@
 {
   "name": "pisco-gitflow-contexts",
-  "version": "0.1.7-rc.0",
+  "version": "0.1.7",
   "description": "Pisco context definitions for Git Flow",
   "keywords": [
     "piscosour-recipe"
