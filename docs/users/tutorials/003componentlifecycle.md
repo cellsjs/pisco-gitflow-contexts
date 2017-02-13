@@ -44,3 +44,5 @@ The tool will ask for the next release version.
 ```
 
 If everything is Ok develop will be created with patch version inside version file.
+
+**IMPORTANT**: Is possible to change new release at any time by executing again pisco init.
