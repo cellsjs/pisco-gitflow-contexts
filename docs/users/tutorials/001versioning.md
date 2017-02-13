@@ -9,20 +9,20 @@ These are the stable version for source code, tags and artifacts on each branch
 
 | Branch | Version Type | Option |
 | --- | --- | --- |
-| master | x.y.z |	x.y.z-n |
-| hotfix | x.y.z-hotfix.n |	|
-| release | x.y.z-rc.n | |
-| develop | x.y.z-beta.n | |
-| feature | x.y.z-alpha.n | |
-| merge | x.y.z-aam.n | |
+| master | x.y.z | x.y.z-n |
+| hotfix | x.y.z-hotfix.n | - |
+| release | x.y.z-rc.n | - |
+| develop | x.y.z-beta.n | - |
+| feature | x.y.z-alpha.n | - |
+| merge | x.y.z-aam.n | - |
 
 Nightly build versions has append the timestamp when the version was created:
 
     x.y.z-beta.n.20170213105634
 
-# How version change with all the **Pisco GitFlow** processes:
+## How version change with all the **Pisco GitFlow** processes:
 
-## Feature processes
+### Feature processes
 
 | Action | Init Branch | Init Version | pre tag version |End Branch | End Version |
 | --- | --- | --- | --- | --- | --- |
@@ -38,14 +38,14 @@ Lets play with this...
 - 3) Now we want to finish **1.0.0-alpha.1** feature. Develop result in **1.0.0-beta.1**. Is the result of adding one to pre tag **1.0.0-beta.(0+1)**. Make new tag **1.0.0-beta.1**
 - 4) we finish **1.0.0-alpha.0** feature so develop result on **1.0.0-beta.2**. Is the result of adding one to pre tag **1.0.0-beta.(1+1)**. Make new tag **1.0.0-beta.2**
 
-## Hotfix processes
+### Hotfix processes
 
 | Action | Init Branch | Init Version | pre tag version |End Branch | End Version |
 | --- | --- | --- | --- | --- | --- |
 | start hotfix | master | x.y.z | pre_x.y.z-hotfix.n | hotfix | x.y.z-hotfix.n |
 | finish hotfix | hotfix | x.y.z-hotfix.m | x.y.z(-n) | master | x.y.z-(n+1) |
 
-## Release processes
+### Release processes
 
 | Action | Init Branch | Init Version | pre tag version |End Branch | End Version |
 | --- | --- | --- | --- | --- | --- |
@@ -57,14 +57,14 @@ Lets play with this...
 
 **Only one release at once!**
 
-## Merge processes
+### Merge processes
 
 Its pretty similar to feature process.
 
 | Action | Init Branch | Init Version | pre tag version |End Branch | End Version |
 | --- | --- | --- | --- | --- | --- |
-| start merge | develop | x.y.z-beta.n | pre_x.y.z-aam.n | merger | x.y.z-aam.n |
-| finish feature | merger | x.y.z-aam.m | x.y.z-beta.n | develop | x.y.z-beta.(n+1) |
+| start merger | develop | x.y.z-beta.n | pre_x.y.z-aam.n | merger | x.y.z-aam.n |
+| finish merger | merger | x.y.z-aam.m | x.y.z-beta.n | develop | x.y.z-beta.(n+1) |
 
 
 
