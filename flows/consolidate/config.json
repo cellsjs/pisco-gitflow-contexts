@@ -2,8 +2,16 @@
   "name": "consolidate",
   "description": "[Git flow]: Check for semver relate updates",
   "steps": {
-    "start" : {},
-    "lock-check" : {},
-    "finish" : {}
+    "start" : {
+      "type" : "flow",
+      "params": {
+        "targetBranch" : "consolidation",
+        "branchName" : "auto_consolidate"
+      }
+    },
+    "finish" : {
+      "watchContext" : true,
+      "type" : "flow"
+    }
   }
 }

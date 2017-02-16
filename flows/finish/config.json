@@ -6,11 +6,11 @@
       "implementation-check" : false
     },
     "validate" : {
-      "excludes" : ["feature", "hotfix", "release", "merger"],
+      "excludes" : ["feature", "hotfix", "release", "merger", "consolidation"],
       "type" : "flow"
     },
     "setVersion": {
-      "excludes" : ["feature", "hotfix", "release", "merger"]
+      "excludes" : ["feature", "hotfix", "release", "merger", "consolidation"]
     },
     "finish": {
       "implementation-check" : false
