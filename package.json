@@ -9,13 +9,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "pisco-recipe-publish": "^0.1.0",
-    "pisco-gitflow-finish": "^0.1.0",
-    "pisco-gitflow-init": "^0.1.0",
-    "pisco-gitflow-merge": "^0.1.0",
-    "pisco-gitflow-start": "^0.1.0",
-    "pisco-cells-json-setVersion": "^0.1.0",
-    "pisco-gitflow-publish": "^0.1.0",
+    "pisco-recipe-publish": "^0.1.1",
+    "pisco-gitflow-finish": "^0.1.3",
+    "pisco-gitflow-init": "^0.1.3",
+    "pisco-gitflow-merge": "^0.1.2",
+    "pisco-gitflow-start": "^0.1.3",
+    "pisco-cells-json-setVersion": "^0.1.8",
+    "pisco-gitflow-publish": "^0.1.1",
     "pisco-site-template-basic": "*"
   },
   "devDependencies": {
