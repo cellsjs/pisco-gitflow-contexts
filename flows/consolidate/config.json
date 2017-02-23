@@ -5,13 +5,17 @@
     "start" : {
       "type" : "flow",
       "params": {
+        "action" : "start",
         "targetBranch" : "consolidation",
         "branchName" : "auto_consolidate"
       }
     },
     "finish" : {
       "watchContext" : true,
-      "type" : "flow"
+      "type" : "flow",
+      "params": {
+        "action" : "finish"
+      }
     }
   }
 }
