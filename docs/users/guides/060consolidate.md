@@ -5,11 +5,11 @@ layout: doc_page.html
 
 # Consolidate dependencies of master
 
-Semver dependencies could vary between to install executions due to patch/fix auto update skill of semver. Sometimes this is useful for developers and integrators in order to get all patches and fixes from all its dependencies. But sometimes for C.I. purposes is more a problem than a solution.
+Semver dependencies could vary between two installations due to patch/fix auto update skill of semver. Sometimes this is useful for developers and integrators in order to get all patches and fixes from all its dependencies. But sometimes for C.I. purposes is more a problem than a solution.
 
-In C.I. process is mandatory to fix all the versions of dependencies once you test one application. To do this we have two mechanism.
+In C.I. process is mandatory to lock all the versions of dependencies once you test one application. To do this we have two mechanism.
 
-- 1. Shrinkwrap off tested installation or order to repeat allways same groups of dependencies whenever you install your app. This is made by command finish every time creating a file called _(bower/npm)_shrinkwrap.json.
+- 1. Shrinkwrap of tested installation in order to repeat allways same groups of dependencies whenever you install your app. This is made by finish command every time creating a file called _(bower/npm)_shrinkwrap.json.
 - 2. When install this app our tool copy this file into the right one (npm_shrinkwrap.json/bower.json) and make the installation with it all the time.
 - 3. If our software component is a dependency of another semver still works when our software component are needed as a dependency. So bower.json or package.json inside are with ^ or ~ semver methods...
 
