@@ -13,6 +13,14 @@ In C.I. process is mandatory to lock all the versions of dependencies once you t
 - 2. When install this app our tool copy this file into the right one (npm_shrinkwrap.json/bower.json) and make the installation with it all the time.
 - 3. If our software component is a dependency of another semver still works when our software component are needed as a dependency. So bower.json or package.json inside are with ^ or ~ semver methods...
 
+## File _(npm/bower)_shrinkwrap.json
+
+- This file es appended on any repository.
+- Contains all locked version of the entire dependency tree.
+- Is generated on every release or hotfix finish process.
+- If you want to make a locked installation you have to copy this file into the right one. **_npm_shrinkwrap.json** -> **npm_shrinkwrap.json** or **_bower_shrinkwrap.json** -> **bower.json**
+- pisco-plugin-bower or pisco-plugin-npm copy this file into the right one for you by adding lockedInstall properties into bower or npmDependencies configuration object on step config.json.
+
 ## Consolidation process
 
 With this process is possible to update and test any software component that has dependencies keeping the shrinkwrap file updated all the time.
