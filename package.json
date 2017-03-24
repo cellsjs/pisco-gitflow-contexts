@@ -19,7 +19,7 @@
     "pisco-site-template-basic": "*"
   },
   "devDependencies": {
-    "piscosour": "^1.0.0-alpha.8"
+    "piscosour": "^1.0.0"
   },
   "author": "",
   "license": "ISC"
