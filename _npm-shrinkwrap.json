@@ -1,0 +1,11 @@
+{
+  "name": "pisco-gitflow-contexts",
+  "version": "1.0.0",
+  "dependencies": {
+    "pisco-site-template-basic": {
+      "version": "0.2.4",
+      "from": "pisco-site-template-basic@0.2.4",
+      "resolved": "https://globaldevtools.bbva.com/artifactory/api/npm/npm-repo/pisco-site-template-basic/-/pisco-site-template-basic-0.2.4.tgz"
+    }
+  }
+}
