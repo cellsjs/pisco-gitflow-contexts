@@ -1,6 +1,6 @@
 {
   "name": "pisco-gitflow-contexts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "pisco-site-template-basic": {
       "version": "0.2.4",
